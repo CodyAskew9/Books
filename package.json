@@ -1,0 +1,25 @@
+{
+  "name": "books",
+  "version": "1.0.0",
+  "description": "a more complex library app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodyAskew9/Books.git"
+  },
+  "author": "Cody Askew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodyAskew9/Books/issues"
+  },
+  "homepage": "https://github.com/CodyAskew9/Books#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
