@@ -3,9 +3,25 @@ import { Link } from 'react-router-dom'
 import './Home.css'
 
 const Home = () => {
+  const returnStyle={
+  color: "#1466c4"
+  }
+  const checkOutStyle={
+  color: "#945dcf"
+  }
   return (
-    <div>
-    <hi>home</hi>
+    <div className='home'>
+    <div className='checkOutSide'>
+      <Link style={checkOutStyle} to={"/Profiles"}>
+        <h1>CheckOut A Book</h1>
+      </Link>
+
+    </div>
+     <div className='returnSide'>
+      <Link style={returnStyle} to={"/Profiles"}>
+        <h1>Return a book</h1>
+        </Link>
+    </div>
     </div>
   )
 }

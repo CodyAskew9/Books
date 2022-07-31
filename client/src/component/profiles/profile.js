@@ -2,7 +2,7 @@ import React from 'react'
 import './profile.css'
 const Profile = () => {
   return (
-    <div className='profiles'>profile</div>
+    <div className='profiles'><h1>profile</h1></div>
   )
 }
 

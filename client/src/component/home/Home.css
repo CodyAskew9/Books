@@ -1,10 +1,24 @@
 .checkOutSide{
+    display: flex;
+    justify-content: center;
     background-color: #1466c4;
+    align-items: center;
     width: 50%;
     height: 100vh;
+    text-align: center;
+    color: ;
+    
 }
 .returnSide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
    background-color: #945dcf;
    width: 50%;
    height: 100vh;
+   color: #1466c4;
+}
+.home{
+    display: flex;
+    margin-top: 0%
 }
