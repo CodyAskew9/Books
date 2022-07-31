@@ -1,0 +1,10 @@
+.checkOutSide{
+    background-color: #1466c4;
+    width: 50%;
+    height: 100vh;
+}
+.returnSide{
+   background-color: #945dcf;
+   width: 50%;
+   height: 100vh;
+}
