@@ -11,12 +11,12 @@ const Home = () => {
   }
   return (
     <div className='home'>
-    <div className='checkOutSide'>
       <Link style={checkOutStyle} to={"/Profiles"}>
+    <div className='checkOutSide'>
         <h1>CheckOut A Book</h1>
-      </Link>
 
     </div>
+      </Link>
      <div className='returnSide'>
       <Link style={returnStyle} to={"/Profiles"}>
         <h1>Return a book</h1>
