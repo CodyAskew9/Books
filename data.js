@@ -1,7 +1,9 @@
 const data = {
     users:[
-        {name: 'Cody'},
-        {name: 'Leihzel'}
+        {name: 'Cody',
+    password:123},
+        {name: 'Leihzel',
+    password:123,}
     ]
 };
 
