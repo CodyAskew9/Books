@@ -5,6 +5,14 @@ const data = {
         {name: 'Leihzel',
     password:123,}
     ],
+    classA:[
+        {name: 'cody',
+       checkedOut: 'books'}
+    ],
+    classB:[
+        {name: 'cody',
+       checkedOut: 'books'}
+    ],
     books:[
         {title: 'The Baby Sitters Club The Secret Life of Mary Anne Spier',
         author: 'Ann M. Martin',

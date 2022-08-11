@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const kidSchema = new mongoose.Schema(
+const classASchema = new mongoose.Schema(
     {
     name:{type: String, required: true},
     books:{type: String, required: false},
@@ -9,5 +9,5 @@ const kidSchema = new mongoose.Schema(
     timestamps:true
 });
 
-const Kids = mongoose.model("kids", kidSchema);
-export default Kids;
+const ClassA = mongoose.model("classA", classASchema);
+export default ClassA;
